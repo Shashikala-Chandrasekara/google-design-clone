@@ -136,7 +136,7 @@ button:hover {
     padding: 10px;
 }
 #search-icon {
-    opacity: 0.5;
+    opacity: 0.7;
     padding-left: 10px;
 }
 .drop-down {
@@ -157,24 +157,20 @@ button:hover {
 #camera{
     display: flex;
     justify-content: flex-end;
-    width: 45px;
-    height: 24px;
+    width: 40px;
+    height: 20px;
     align-items: center;
     position: relative;
     cursor: pointer;
 }
-#mic {
-    margin-right: 0;
-}
-#camera {
-    margin-right: 10px;
-}
 
 #google-mic{
-    font-size: 1.5rem; 
+    margin-right: 1px;
+    width: 35px;
 }
 #google-camera{
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    width: 32px;
 }
 #google-mic:hover {
     cursor: pointer;
@@ -220,7 +216,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    color: grey;
+    color: black;
     font-size: 0.9rem;
     background-color: rgb(243, 243, 243);
 }
@@ -249,3 +245,45 @@ footer div span{
 footer div span:hover{
     text-decoration: underline;
 }
+
+@media all and (min-width: 600px) and (max-width:767px){
+    #search {
+        width: 480px;
+    }
+    #footer-bottom {
+        flex-direction: column;
+    }
+    #bottom-1,
+    #bottom-2{
+        justify-content: flex-start;
+        gap: 40px;
+    }
+}
+@media all and (min-width: 425px) and (max-width: 600px){
+    #search {
+        width: 380px;
+    }
+    #footer-bottom {
+        flex-direction: column;
+    }
+    #bottom-1,
+    #bottom-2{
+        justify-content: flex-start;
+        gap: 45px;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 425px){
+    #search {
+        width: 280px;
+    }
+    #footer-bottom {
+        flex-direction: column;
+    }
+    #bottom-1,
+    #bottom-2{
+        justify-content: flex-start;
+        gap: 40px;
+    }
+}
+
