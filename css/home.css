@@ -150,7 +150,7 @@ button:hover {
     border-right-color: transparent;
     border-bottom-color: rgba(0, 0, 0, 0.747);
     position: absolute;
-    top: 145%;
+    top: 165%;
     transform: translateY(-50%);
     margin-right: 5px;
     visibility: hidden;
@@ -184,6 +184,10 @@ button:hover {
 #camera:hover .drop-down {
     visibility: visible;
 }
+#mic:hover .tooltip-1,
+#camera:hover .tooltip-2 {
+    visibility: visible;
+}
 #mic .tooltip-1,
 #camera .tooltip-2 {
     visibility: hidden;
@@ -197,7 +201,7 @@ button:hover {
     height: 25px;
    
     position: absolute;
-    top: 165%;
+    top: 185%;
     right: -40px;
 }
 #google-search button{
