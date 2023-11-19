@@ -28,6 +28,8 @@ Feel free to fork, modify, and use the code in your own projects. There's no rea
 * Dark / Light mode support.
 
 ### Preview
+![Alt text](img/light-mode.png)
+![Alt text](img/dark-mode.png)
 
 
 
