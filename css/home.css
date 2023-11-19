@@ -111,23 +111,28 @@ button:hover {
     display: none;
 }
 #search-field {
+    background-color: transparent;
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    /* margin-top: -6px; */
     width: 443px;
-    opacity: 0;
+    opacity: 1;
     outline: none;
     line-height: 27px;
-    /* height: 20px; */
     font-size: 16px;
     margin-left: 10px;
+    text-align: left;
 }
+
+/* #search:focus {
+    cursor:text;
+    color: black;
+} */
+
 
 #search {
     width: 584px;
     height: 47px;
-    background-color: white;
     border: 1px solid rgba(10, 10, 10, 0.219);
     border-radius: 40px;
     display: flex;
@@ -352,7 +357,7 @@ footer div span:hover{
         color: white;
     }
     #icon {
-        color: rgba(255,255,255,0.8);
+        color: rgba(255,255,255,1);
     }
     #icon:hover {
         background-color: rgba(224, 219, 219, 0.555);
@@ -401,6 +406,9 @@ footer div span:hover{
     }
     #search-icon {
         opacity: 1;
+    }
+    #search-field {
+        color: white;
     }
     
 
